@@ -76,7 +76,7 @@ const showingNavigationDropdown = ref(false);
                     <li>
                         <SidebarLink
                             :href="route('roles.index')"
-                            :active="route().current('roles.index')"
+                            :active="route().current('roles.*')"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
